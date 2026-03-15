@@ -1,6 +1,6 @@
 # Proyecto Final
-## LABORATORIO DE COMPUTACIÓN GRÁFICA
-## ING. CARLOS ALDAIR ROMAN BALBUENA
+## Laboratorio de Computación Gráfica
+## Acosta Porcayo Alan Omar
 
 Fechas de entrega:
 *Grupo 08: 13 de mayo 2026*

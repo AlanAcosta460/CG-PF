@@ -30,16 +30,15 @@ En la imagen de referencia se debe visualizar 7 objetos que el alumno va a recre
 * Toda animación compleja debe ir justificada matemáticamente.
 
 ## Evaluación
-
 Los puntos a evaluar son los siguientes:
-* Manual técnico y de usuario con la metodología de software aplicada (30 puntos)
-* Proyecto en repositorio con una visualización de cambios y avances durante el semestre, sin archivos comprimidos y funcional. (30 puntos)
-* Realismo del espacio virtual contra la foto de referencia (40 puntos)
-* Archivo Ejecutable→ Existe, abre, funciona, no es el de la carpeta debug y no existe código fuente (5 puntos)
-* Modelado (mínimo 7 elementos ya especificados en el pdf donde se colocaron las imágenes de referencia)→Texturizado correcto,
-geometría de los muebles y de los edificios (40 puntos)
-* Animaciones→ Deben ser 5 animaciones donde sean 3 sencillas y 2 complejas (30 puntos)
-* Ambientación→ Uso correcto de la iluminación dentro del espacio (20 puntos)
-* Manejo de cámara (5 puntos)
+|:-:|:-:|
+| Manual técnico y de usuario con la metodología de software aplicada | 30 puntos |
+| Proyecto en repositorio con una visualización de cambios y avances durante el semestre, sin archivos comprimidos y funcional | 30 puntos |
+| Realismo del espacio virtual contra la foto de referencia | 40 puntos |
+| Archivo Ejecutable → Existe, abre, funciona, no es el de la carpeta debug y no existe código fuente | 5 puntos |
+| Modelado (mínimo 7 elementos ya especificados en el pdf donde se colocaron las imágenes de referencia) → Texturizado correcto, geometría de los muebles y de los edificios | 40 puntos |
+| Animaciones → Deben ser 5 animaciones donde sean 3 sencillas y 2 complejas | 30 puntos |
+| Ambientación → Uso correcto de la iluminación dentro del espacio | 20 puntos |
+| Manejo de cámara | 5 puntos |
 
 Total, del proyecto: 200 puntos → 10 Calif.

@@ -32,7 +32,7 @@ En la imagen de referencia se debe visualizar 7 objetos que el alumno va a recre
 ## Evaluación
 Los puntos a evaluar son los siguientes:
 | | |
-|:-:|:-:|
+|-|:-:|
 | Manual técnico y de usuario con la metodología de software aplicada | 30 puntos |
 | Proyecto en repositorio con una visualización de cambios y avances durante el semestre, sin archivos comprimidos y funcional | 30 puntos |
 | Realismo del espacio virtual contra la foto de referencia | 40 puntos |

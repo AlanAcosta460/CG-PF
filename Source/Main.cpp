@@ -52,7 +52,7 @@ int main( )
     glfwWindowHint( GLFW_RESIZABLE, GL_FALSE );
     
     // Create a GLFWwindow object that we can use for GLFW's functions
-    GLFWwindow *window = glfwCreateWindow( WIDTH, HEIGHT, "Beta 1 Proyecto Final", nullptr, nullptr );
+    GLFWwindow *window = glfwCreateWindow( WIDTH, HEIGHT, "Reporte 6", nullptr, nullptr );
     
     if ( nullptr == window )
     {
@@ -93,8 +93,10 @@ int main( )
     
     // Load models
     glm::mat4 projection = glm::perspective( camera.GetZoom( ), ( float )SCREEN_WIDTH/( float )SCREEN_HEIGHT, 0.1f, 100.0f );
-    Model planta((char*)"Models/planta.obj");
-    Model fachada((char*)"Models/fachada.obj");
+    Model fachada((char*)"Models/320206102_REPORTE6_GPO8/fachada.obj");
+    Model planta((char*)"Models/320206102_REPORTE6_GPO8/planta.obj");
+    Model maquina((char*)"Models/320206102_REPORTE6_GPO8/maquina.obj");
+
 
 
     // Game loop
@@ -121,12 +123,19 @@ int main( )
 
         // Draw the loaded model
         glm::mat4 model(1);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, -30.0f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        fachada.Draw(shader);
+        
+        model = glm::mat4(1);
+        model = glm::translate(model, glm::vec3(-2.0f, 0.0f, -10.0f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         planta.Draw(shader);
 
         model = glm::mat4(1);
+        model = glm::translate(model, glm::vec3(2.0f, 0.0f, -10.0f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        fachada.Draw(shader);
+        maquina.Draw(shader);
 
 
         // Swap the buffers
